@@ -6,7 +6,7 @@ import time
 
 def test_nuakri_update():
     driver = webdriver.Chrome()
-    path = os.path.abspath("C:\Users\Ankita Sharma\Downloads\Ankita cv.pdf")
+    path = os.path.abspath("C:\Users\Ankita Sharma\Downloads\Ankita_cv.pdf")
     driver.get('https://www.naukri.com/nlogin/login')
     time.sleep(2)
     driver.find_element(By.ID, 'usernameField').send_keys('60ankitasharma@gmail.com')
